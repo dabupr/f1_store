@@ -21,11 +21,12 @@ class ContainerGridClass extends StatelessWidget {
         alignment: Alignment.topCenter,
         
         decoration: BoxDecoration(
-          //border: Border.all(width: 1, color: colorBackgraund),
+          border: Border.all(width: 5, color: product.color),
           borderRadius: const BorderRadius.all(Radius.circular(60)),
           image: DecorationImage(
             image: Image.asset(product.image).image,
-            fit: BoxFit.fitHeight,
+            fit: BoxFit.scaleDown,
+            
           ),
         ),
         padding: const EdgeInsets.all(8),
