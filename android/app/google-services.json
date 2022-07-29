@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "962349025546",
+    "project_id": "micro-root-350609",
+    "storage_bucket": "micro-root-350609.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:962349025546:android:27b4ec4029d93dde1e12f3",
+        "android_client_info": {
+          "package_name": "com.example.f1_store"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "962349025546-jqjd9jippeivn8v1bq85bc93bkibifan.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2NOIc6D00EnZuTpIhW1gwinoHyqDPgFc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "962349025546-jqjd9jippeivn8v1bq85bc93bkibifan.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
