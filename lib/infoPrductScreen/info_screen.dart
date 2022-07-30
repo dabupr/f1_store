@@ -12,7 +12,6 @@ class InfoScreen extends StatelessWidget {
   
   @override
   Widget build(BuildContext context) {
-    debugPrint("Hoola");
     return Scaffold(
       backgroundColor: product.color,
       appBar: buildAppBar(context),
