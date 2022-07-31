@@ -1,3 +1,4 @@
+import 'package:f1_store/mid_page.dart';
 import 'package:f1_store/models/Product.dart';
 import 'package:f1_store/widget_tree.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -80,7 +81,7 @@ class _MyHomePageState extends State<MyHomePage> {
     if (_selectedIndex == 0) {
       return gridView();
     } else if (_selectedIndex == 1) {
-      return Container();
+      return const MidWid();
     } else {
       return const SettingsPage().getBodySettings();
     }
