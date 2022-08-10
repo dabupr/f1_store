@@ -49,10 +49,21 @@ class Body extends StatelessWidget {
                 ],
               ),
             ),
-             //Flexible(child:  SizedBox(height: 100)),
+            //Flexible(child:  SizedBox(height: 100)),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: <Widget>[
+                Flexible(
+                    child: Padding(
+                      padding: const EdgeInsets.only(left: 8.0),
+                      child: Hero(
+                        tag: product.image,
+                        child: Image(
+                            image: Image.asset(
+                                        product.image,
+                                      ).image),
+                      ),
+                    )),
                 Padding(
                   padding: const EdgeInsets.all(15.0),
                   child: ElevatedButton(

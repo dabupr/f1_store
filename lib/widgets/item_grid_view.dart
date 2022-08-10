@@ -17,20 +17,23 @@ class ContainerGridClass extends StatelessWidget {
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: press,
-      child: Container(
-        alignment: Alignment.topCenter,
-        
-        decoration: BoxDecoration(
-          border: Border.all(width: 5, color: product.color),
-          borderRadius: const BorderRadius.all(Radius.circular(60)),
-          image: DecorationImage(
-            image: Image.asset(product.image).image,
-            fit: BoxFit.scaleDown,
-            
+      child: Hero(
+        tag: product.image,
+        child: Container(
+          alignment: Alignment.topCenter,
+          
+          decoration: BoxDecoration(
+            border: Border.all(width: 5, color: product.color),
+            borderRadius: const BorderRadius.all(Radius.circular(60)),
+            image: DecorationImage(
+              image: Image.asset(product.image).image,
+              fit: BoxFit.scaleDown,
+              
+            ),
           ),
+          padding: const EdgeInsets.all(8),
+         
         ),
-        padding: const EdgeInsets.all(8),
-   
       ),
     );
   }
