@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.red,
       ),
       //home: const MyHomePage(title: 'Home'),
-      home: WidgetTree(),
+      home: const WidgetTree(),
       debugShowCheckedModeBanner: false,
     );
   }
